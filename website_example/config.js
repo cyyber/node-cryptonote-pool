@@ -1,17 +1,17 @@
-var api = "http://cryppit.com:8117";
+var api = "http://mineqrl.com:8117";
 
-var coinUnits = 1000000000000;
+var coinUnits = 1000000000;
 
-var poolHost = "cryppit.com";
+var poolHost = "mineqrl.com";
 
-var irc = "irc.freenode.net/#monero-pools";
+var irc = "irc.freenode.net/#qrl-pools";
 
-var email = "support@cryppit.com";
+var email = "support@mineqrl.com";
 
-var cryptonatorWidget = ["XMR-BTC", "XMR-USD", "XMR-EUR", "XMR-GBP"];
+var cryptonatorWidget = ["QRL-BTC", "QRL-USD", "QRL-EUR", "QRL-GBP"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
-var blockchainExplorer = "http://chainradar.com/xmr/block/";
+var blockchainExplorer = "https://explorer.theqrl.org/block/";
 
-var transactionExplorer = "http://chainradar.com/xmr/transaction/";
+var transactionExplorer = "https://explorer.theqrl.org/tx/";
