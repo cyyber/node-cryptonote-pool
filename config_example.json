@@ -1,6 +1,6 @@
 {
-    "coin": "monero",
-    "symbol": "XMR",
+    "coin": "quantum resistant ledger",
+    "symbol": "QRL",
 
     "logging": {
         "files": {
@@ -17,8 +17,8 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "48Y4SoUJM5L3YXBEfNQ8bFNsvTNsqcH5Rgq8RF7BwpgvTBj2xr7CmWVanaw7L4U9MnZ4AG7U6Pn1pBhfQhFyFZ1rL1efL8z",
-        "extraNonce": true,
+        "poolAddress": "Q01060036ea9340ab68df7f8a3c4c4e9a1d3fd30c3dcd0492f1ae2eb07fc2b15ef4c72216d9c5a5",
+        "extraNonce": false,
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
@@ -78,7 +78,7 @@
         "interval": 600,
         "maxAddresses": 50,
         "mixin": 3,
-        "transferFee": 5000000000,
+        "transferFee": 500000000,
         "minPayment": 100000000000,
         "denomination": 100000000000
     },
@@ -86,10 +86,10 @@
     "blockUnlocker": {
         "enabled": true,
         "interval": 30,
-        "depth": 60,
-        "poolFee": 2,
-        "devDonation": 0.1,
-        "coreDevDonation": 0.1
+        "depth": 50,
+        "poolFee": 0.8,
+        "devDonation": 0.0,
+        "coreDevDonation": 0.0
     },
 
     "api": {
@@ -109,7 +109,7 @@
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 8082
+        "port": 18081
     },
 
     "redis": {
