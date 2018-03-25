@@ -10,7 +10,7 @@ var email = "support@mineqrl.com";
 
 var cryptonatorWidget = ["QRL-BTC", "QRL-USD", "QRL-EUR", "QRL-GBP"];
 
-var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
+var easyminerDownload = "https://github.com/fireice-uk/xmr-stak/releases/";
 
 var blockchainExplorer = "https://explorer.theqrl.org/block/";
 
